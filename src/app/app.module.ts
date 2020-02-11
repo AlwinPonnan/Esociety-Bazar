@@ -3,18 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CompareSocietiesComponent } from './compare-societies/compare-societies.component';
 import { UserHeaderComponent } from './user/user-header/user-header.component';
 import { UserfooterComponent } from './user/userfooter/userfooter.component';
 import { Userbodysection1Component } from './user/userbodysection1/userbodysection1.component';
+import { CompareSocietiesComponent } from './user/compare-societies/compare-societies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CompareSocietiesComponent,
     UserHeaderComponent,
     UserfooterComponent,
     Userbodysection1Component,
+    CompareSocietiesComponent,
    ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+.background{
+    background-image: url("../../../assets/green backgground.png");
+    height: 200px;
+    opacity: 0.2;
+}
+.containerpos{
+    position: relative;
+    top: -180px !important;
+}
+.marginclass{
+    position: relative;
+    top: -33px;
+}
+
+@media screen and (max-width:)

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UserHeaderComponent } from './user/user-header/user-header.component';
 import { UserfooterComponent } from './user/userfooter/userfooter.component';
 import { Userbodysection1Component } from './user/userbodysection1/userbodysection1.component';
+import { CompareSocietiesComponent } from './user/compare-societies/compare-societies.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { Userbodysection1Component } from './user/userbodysection1/userbodysecti
     UserHeaderComponent,
     UserfooterComponent,
     Userbodysection1Component,
+    CompareSocietiesComponent,
    ],
   imports: [
     BrowserModule,

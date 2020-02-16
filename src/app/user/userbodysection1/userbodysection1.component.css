@@ -30,6 +30,14 @@
 }
 .btnhover2:hover{
     background-color: rgba(45, 211, 145, 1);
+    color: white !important;
+}
+
+.btn2
+{
+    background-color: rgba(45, 211, 145, 1);
+    color: white !important;
+    /* font-weight: 600; */
 }
 .btnradius{
     border-radius: 50px;

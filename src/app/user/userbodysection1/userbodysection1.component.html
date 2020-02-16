@@ -3,11 +3,12 @@
 <div class="container containerpos">
     <div class="row">
         <div class="col-lg-8 col-12">
-            <h5 class="col-lg-5 col-12 ">Find Societies Faster , Smarter </h5>
+            <h5 class="col-lg-5 col-12 " style="color: rgba(91, 91, 91, 1);">Find Societies Faster , Smarter </h5>
             <div class="col-lg-6 col-12 float-right marginclass">
                 <form>
-                    <i class="fas fa-search" style="color: rgba(31, 180, 122, 1);"></i><input class="inputChange col-11" type="text" name="" placeholder="Or type a Society's name/place/type" id="" >    
-                </form>            
+                    <i class="fas fa-search" style="color: rgba(31, 180, 122, 1);"></i><input class="inputChange col-11"
+                        type="text" name="" placeholder="Or type a Society's name/place/type" id="">
+                </form>
             </div>
 
         </div>
@@ -15,8 +16,81 @@
     <p class="col-lg-8 col-12">Are you struggling to find a society in your
         area that fills all your needs? Don't have time to go to society offices make deposits? Select a location.</p>
     <div class="row">
-        <div class="col-lg-5" style="background-color: aquamarine; height: 150px;">
-            
+        <div class="col-lg-4">
+            <div class="row">
+                <div class="col-lg-3 d-flex justify-content-center p-3 btnhover1" style="border-radius: 12px !important;">
+                    <img src="../../../assets/mumbai.png" height="55px" alt="">
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center p-3 btnhover1" style="border-radius: 12px !important;">
+                    <img src="../../../assets/taj-mahal.png" height="55px" alt="">
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center p-3 btnhover1" style="border-radius: 12px !important;">
+                    <img src="../../../assets/gate-of-india.png" height="55px" alt="">
+                </div>
+
+            </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-6 mt-5">
+            <h5 class="col-lg-6" style="color: rgba(91, 91, 91, 1);">Select Society Type </h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-7">
+            <div class="row ml-1 mt-3">
+                <div class="dropdown col-lg-3 ">
+                    <button class="btn btnhover1 dropdown-toggle btnradius" type="button" data-toggle="dropdown"
+                        style="color: rgba(91, 91, 91, 1);"> <i class="fas fa-piggy-bank"
+                            style="color: rgba(31, 180, 122, 1);"></i> Credit Society
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">asdd</a></li>
+                        <li><a href="#">sdaa</a></li>
+                        <li><a href="#">adfefae</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 text-center mt-2" style="color: rgba(31, 180, 122, 1);">Now Select,</div>
+                <div class="col-lg-3 "><button class="btn btnhover1 btnradius" type="button"
+                        style="color: rgba(91, 91, 91, 1);">Deposits</button></div>
+                <div class="col-lg-3 "><button class="btn btnhover1 btnradius" type="button"
+                        style="color: rgba(91, 91, 91, 1);">Loans</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="row ml-1 mt-4">
+        <h5 class="col-lg-6" style="color: rgba(31, 180, 122, 1);">Scheme Type </h5>
+    </div>
+    <div class="row">
+        <div class="col-lg-10">
+            <div class="row ml-1 mt-3 d-flex justify-content-center">
+                <div class="col-lg-3">
+                    <div class="row">
+                        <div class="col-lg-6 mt-2" style="color: rgba(91, 91, 91, 1);">Term-Mid</div>
+                        <input type="range" class="custom-range col-lg-6 mt-2" min="0" max="2" id="customRange1">
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center mt-2" style="color: rgba(31, 180, 122, 1); font-size: 15px;">Additional information, if any</div>
+                <div class="col-lg-2"><button class="btn btnhover2 btnradius" type="button"
+                        style="color: rgba(91, 91, 91, 1);">Senior Citizen</button></div>
+                <div class="col-lg-2"><button class="btn btnhover2 btnradius" type="button"
+                        style="color: rgba(91, 91, 91, 1);">Women</button></div>
+                 <div class="col-lg-2"><button class="btn btnhover2 btnradius" type="button"
+                        style="color: rgba(91, 91, 91, 1);">Special Offers</button></div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="card" style="width: 30rem;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+    </div> -->
+    <ng-image-slider [images]="imageObject" #nav></ng-image-slider>
+
+
+    
 </div>

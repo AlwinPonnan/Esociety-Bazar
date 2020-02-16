@@ -7,7 +7,7 @@ import { UserHeaderComponent } from './user/user-header/user-header.component';
 import { UserfooterComponent } from './user/userfooter/userfooter.component';
 import { Userbodysection1Component } from './user/userbodysection1/userbodysection1.component';
 import { CompareSocietiesComponent } from './user/compare-societies/compare-societies.component';
-
+import { NgImageSliderModule } from 'ng-image-slider';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,8 @@ import { CompareSocietiesComponent } from './user/compare-societies/compare-soci
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgImageSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

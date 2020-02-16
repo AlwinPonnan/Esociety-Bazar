@@ -43,8 +43,13 @@
     border-radius: 50px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.21);
 }
-
-
+.dropdown-menu li{
+    text-align: center;
+}
+.dropdown-menu li a{
+    text-decoration: none;
+    color: black;
+}
 @media screen and (max-width:992px){
     .marginclass{
         position: relative;

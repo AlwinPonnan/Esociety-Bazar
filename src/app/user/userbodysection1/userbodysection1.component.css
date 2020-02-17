@@ -30,6 +30,14 @@
 }
 .btnhover2:hover{
     background-color: rgba(45, 211, 145, 1);
+    color: white !important;
+}
+
+.btn2
+{
+    background-color: rgba(45, 211, 145, 1);
+    color: white !important;
+    /* font-weight: 600; */
 }
 .btnradius{
     border-radius: 50px;
@@ -77,6 +85,13 @@
     position: relative;
     left: -30px;
     top: -8px;
+}
+.dropdown-menu li{
+    text-align: center;
+}
+.dropdown-menu li a{
+    text-decoration: none;
+    color: black;
 }
 @media screen and (max-width:992px){
     .marginclass{

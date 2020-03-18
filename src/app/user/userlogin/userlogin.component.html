@@ -6,13 +6,13 @@
 <div class="container-fluid">
 
     <div class="row d-flex bg justify-content-center">
-        <div class="col-8 mt-4 loginForm" >
+        <div class="col-lg-8 col-12 mt-lg-4 loginForm" >
             <div class="row" style="padding: 10%;">
 
-                <div class="col-6">
+                <div class="col-lg-5 col-12">
                     <img src="../../../assets/Screenshot (40).png" width="100%" height="250px"/>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-6 col-12 mt-3">
                     <h6  class="txtghead">Welcome Back</h6 >
                     <h6  class="txtgreyhead">  
                         Continue your application & get listed on eSocietyBazaar
@@ -36,17 +36,21 @@
             </div>
         </div>
     </div>
-    </div>
-
-    <div class="row d-flex mt-4 justify-content-center" style="margin: unset;">
-        <div class="col-10 d-flex">
-            <div class="col-3 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==1" (click)="showPage(1)" >Application Criteria</div>
-            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==2" (click)="showPage(2)">Organization Detail</div>
-            <div class="col-3 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==3" (click)="showPage(3)">Web & Social Media</div>
-            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==4" (click)="showPage(4)">Contact Info</div>
-            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==5" (click)="showPage(5)">Confirm Account</div>
+    
+    <div class="row mt-4 d-flex justify-content-center" style="margin: unset;">
+        <div class="col-lg-8 col-12">
+            <div class="row" style="margin: unset !important;">
+                
+                <div class="col-lg-3 col-12 mt-1 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==1" (click)="showPage(1)" >Application Criteria</div>
+                <div class="col-lg-2 col-12 mt-1 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==2" (click)="showPage(2)">Organization Detail</div>
+                <div class="col-lg-3 col-12 mt-1 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==3" (click)="showPage(3)">Web & Social Media</div>
+                <div class="col-lg-2 col-12 mt-1 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==4" (click)="showPage(4)">Contact Info</div>
+                <div class="col-lg-2 col-12 mt-1 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==5" (click)="showPage(5)">Confirm Account</div>
+            </div>
         </div>
     </div>
+</div>
+
 
 
 <app-userapplicationcriteria *ngIf="show==1"></app-userapplicationcriteria>

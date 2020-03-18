@@ -40,7 +40,7 @@
     <div class="row d-flex mt-4 justify-content-center" style="margin: unset;">
         <div class="col-10 d-flex">
             <div class="col-3 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==1" (click)="showPage(1)" >Application Criteria</div>
-            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==2" (click)="showPage(2)">Company Profile</div>
+            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==2" (click)="showPage(2)">Organization Detail</div>
             <div class="col-3 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==3" (click)="showPage(3)">Web & Social Media</div>
             <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==4" (click)="showPage(4)">Contact Info</div>
             <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==5" (click)="showPage(5)">Confirm Account</div>
@@ -52,9 +52,9 @@
 
 <app-userapplicationcriteria *ngIf="show==1"></app-userapplicationcriteria>
 <app-usercompanyprofile *ngIf="show==2"></app-usercompanyprofile>
-<app-userconfirmaccount *ngIf="show==3"></app-userconfirmaccount>
+<app-userwebandsocialmedia *ngIf="show==3"></app-userwebandsocialmedia>
 <app-usercontactinfo *ngIf="show==4"></app-usercontactinfo>
-<app-userwebandsocialmedia *ngIf="show==5"></app-userwebandsocialmedia>
+<app-userconfirmaccount *ngIf="show==5"></app-userconfirmaccount>
 
 
 <app-userfooter></app-userfooter>

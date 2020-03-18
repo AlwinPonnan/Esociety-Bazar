@@ -4,8 +4,9 @@
 
 
 <div class="container-fluid">
-    <div class="row d-flex justify-content-center">
-        <div class="col-8 mt-4" >
+
+    <div class="row d-flex bg justify-content-center">
+        <div class="col-8 mt-4 loginForm" >
             <div class="row">
 
                 <div class="col-6">
@@ -18,33 +19,42 @@
                     </h6>
                     <form action="/action_page.php">
                         <div class="form-group">
-                          <label class="fontsizesm txtgrey" for="email">Email Address</label>
-                          <input type="email" class="form-control txtb" id="email" placeholder="Enter email" name="email">
+                          <label class="fontsizesm txtgrey " for="email">Email Address</label>
+                          <input type="email" class="form-control txtb inputbg" id="email" placeholder="Enter email" name="email">
                         </div>
                         <div class="form-group">
                           <label for="pwd" class="fontsizesm txtgrey">Type</label>
-                          <input type="password" class="form-control txtb" id="pwd" placeholder="Enter password" name="pswd">
+                          <input type="password" class="form-control txtb inputbg" id="pwd" placeholder="Enter password" name="pswd">
                         </div>
                         <div class="form-group">
                           <label class="fontsizesm txtg">
                                 Change Password
                           </label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
                       </form>
                 </div>
             </div>
         </div>
     </div>
     </div>
+    <div class="row d-flex mt-4 justify-content-center" style="margin: unset;">
+        <div class="col-10 d-flex">
+            <div class="col-3 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==1" (click)="showPage(1)" >Application Criteria</div>
+            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==2" (click)="showPage(2)">Company Profile</div>
+            <div class="col-3 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==3" (click)="showPage(3)">Web & Social Media</div>
+            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==4" (click)="showPage(4)">Contact Info</div>
+            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==5" (click)="showPage(5)">Confirm Account</div>
+        </div>
+    </div>
 
 
 
 
-
-
-
-
+<app-userapplicationcriteria *ngIf="show==1"></app-userapplicationcriteria>
+<app-usercompanyprofile *ngIf="show==2"></app-usercompanyprofile>
+<app-userconfirmaccount *ngIf="show==3"></app-userconfirmaccount>
+<app-usercontactinfo *ngIf="show==4"></app-usercontactinfo>
+<app-userwebandsocialmedia *ngIf="show==5"></app-userwebandsocialmedia>
 
 
 <app-userfooter></app-userfooter>

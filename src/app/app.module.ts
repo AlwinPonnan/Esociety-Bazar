@@ -11,6 +11,11 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { SliderComponent } from './user/slider/slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { UserloginComponent } from './user/userlogin/userlogin.component';
+import { UserapplicationcriteriaComponent } from './user/userapplicationcriteria/userapplicationcriteria.component';
+import { UsercompanyprofileComponent } from './user/usercompanyprofile/usercompanyprofile.component';
+import { UserwebandsocialmediaComponent } from './user/userwebandsocialmedia/userwebandsocialmedia.component';
+import { UsercontactinfoComponent } from './user/usercontactinfo/usercontactinfo.component';
+import { UserconfirmaccountComponent } from './user/userconfirmaccount/userconfirmaccount.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +25,11 @@ import { UserloginComponent } from './user/userlogin/userlogin.component';
     CompareSocietiesComponent,
     SliderComponent,
     UserloginComponent,
+    UserapplicationcriteriaComponent,
+    UsercompanyprofileComponent,
+    UserwebandsocialmediaComponent,
+    UsercontactinfoComponent,
+    UserconfirmaccountComponent,
    ],
   imports: [
     BrowserModule,

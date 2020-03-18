@@ -1,15 +1,18 @@
 .txtg{
-    color: rgba(45, 211, 147, 1);
+    color: rgba(45, 211, 147, 1) !important;
 }
-
 .txtgrey{
     color: grey;
 }
-
+.bg{
+ background-image: linear-gradient(to bottom, #f1fcf8, #f3fdfd, #f8fdff, #fcfeff, #ffffff);
+}
 .txtb{
     color: black;
 }
-
+.inputbg{
+    background-color:rgb(245, 253, 250) ;
+}
 .txtghead{
     color: rgba(45, 211, 147, 1);
     font-weight: 700 !important;

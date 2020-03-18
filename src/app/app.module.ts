@@ -10,6 +10,7 @@ import { CompareSocietiesComponent } from './user/compare-societies/compare-soci
 import { NgImageSliderModule } from 'ng-image-slider';
 import { SliderComponent } from './user/slider/slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { UserloginComponent } from './user/userlogin/userlogin.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     Userbodysection1Component,
     CompareSocietiesComponent,
     SliderComponent,
+    UserloginComponent,
    ],
   imports: [
     BrowserModule,

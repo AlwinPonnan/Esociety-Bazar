@@ -1,0 +1,34 @@
+.txtg{
+    color: rgba(45, 211, 147, 1);
+}
+
+.txtgrey{
+    color: grey;
+}
+
+.txtb{
+    color: black;
+}
+
+.txtghead{
+    color: rgba(45, 211, 147, 1);
+    font-weight: 700 !important;
+}
+
+.txtgreyhead{
+    color: rgb(172, 172, 172);
+    font-weight :500 !important;
+}
+
+.form-control{
+    border-top: 0px ;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    border-bottom: solid 2px rgba(45, 211, 147, 1);
+}
+
+.fontsizesm{
+    font-weight: 300;
+    font-size: 13px;
+}

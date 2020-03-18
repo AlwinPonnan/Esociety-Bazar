@@ -1,3 +1,7 @@
+.bgshadow{
+    box-shadow: 0px 0px 29px -5px rgba(0,0,0,0.75);
+    border-radius:25px ;
+}
 .txtg{
     color: rgba(45, 211, 147, 1) !important;
 }
@@ -35,17 +39,22 @@
     font-weight: 300;
     font-size: 13px;
 }
-
-/* FAQ  */
-.bgshadow{
-    box-shadow: 0px 0px 29px -5px rgba(0,0,0,0.75);
-    border-radius:25px ;
+.btn{
+    background-color:rgba(45, 211, 145, 1);
+     border-radius: 5px;
+      margin-top: 10px;
+      width:145px;
+      border: 0px;
+      margin-bottom: 10px;
+      font-family: montserrat_bold, Arial;
+      
 }
-
-#inputCity{
-    background: #f8f9fa;
-}
-
-.form-control{
-    background-color:rgb(245, 253, 250) ;
+.btn1{
+    background-color:#fffefe;
+     border-radius: 5px;
+      margin-top: 10px;
+      width:145px;
+      border: 0px;
+      margin-bottom: 10px;
+      font-family: montserrat_bold, Arial;
 }

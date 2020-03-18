@@ -6,8 +6,9 @@ import { Userbodysection1Component } from './user/userbodysection1/userbodysecti
 
 const routes: Routes = [
 
-  { path: 'user/userlogin',component: UserloginComponent  },
   { path: '',component:Userbodysection1Component  },
+  { path: 'user/userlogin',component: UserloginComponent  },
+  
 ];
 
 @NgModule({

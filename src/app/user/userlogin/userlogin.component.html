@@ -4,9 +4,10 @@
 
 
 <div class="container-fluid">
-    <div class="row d-flex justify-content-center">
-        <div class="col-8 mt-4" >
-            <div class="row">
+
+    <div class="row d-flex bg justify-content-center">
+        <div class="col-8 mt-4 loginForm" >
+            <div class="row" style="padding: 10%;">
 
                 <div class="col-6">
                     <img src="../../../assets/Screenshot (40).png" width="100%" height="250px"/>
@@ -18,19 +19,18 @@
                     </h6>
                     <form action="/action_page.php">
                         <div class="form-group">
-                          <label class="fontsizesm txtgrey" for="email">Email Address</label>
-                          <input type="email" class="form-control txtb" id="email" placeholder="Enter email" name="email">
+                          <label class="fontsizesm txtgrey " for="email">Email Address</label>
+                          <input type="email" class="form-control txtb inputbg" id="email" placeholder="Enter email" name="email">
                         </div>
                         <div class="form-group">
                           <label for="pwd" class="fontsizesm txtgrey">Type</label>
-                          <input type="password" class="form-control txtb" id="pwd" placeholder="Enter password" name="pswd">
+                          <input type="password" class="form-control txtb inputbg" id="pwd" placeholder="Enter password" name="pswd">
                         </div>
                         <div class="form-group">
                           <label class="fontsizesm txtg">
                                 Change Password
                           </label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
                       </form>
                 </div>
             </div>
@@ -38,13 +38,88 @@
     </div>
     </div>
 
+    <div class="row d-flex mt-4 justify-content-center" style="margin: unset;">
+        <div class="col-10 d-flex">
+            <div class="col-3 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==1" (click)="showPage(1)" >Application Criteria</div>
+            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==2" (click)="showPage(2)">Organization Detail</div>
+            <div class="col-3 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==3" (click)="showPage(3)">Web & Social Media</div>
+            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==4" (click)="showPage(4)">Contact Info</div>
+            <div class="col-2 txtgrey fontsizesm text-center" style="cursor: pointer;" [class.txtg]="show==5" (click)="showPage(5)">Confirm Account</div>
+        </div>
+    </div>
 
 
+<app-userapplicationcriteria *ngIf="show==1"></app-userapplicationcriteria>
+<app-usercompanyprofile *ngIf="show==2"></app-usercompanyprofile>
+<app-userwebandsocialmedia *ngIf="show==3"></app-userwebandsocialmedia>
+<app-usercontactinfo *ngIf="show==4"></app-usercontactinfo>
+<app-userconfirmaccount *ngIf="show==5"></app-userconfirmaccount>
 
+    
+    <!-- FAQ -->
 
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-10 bg-light bgshadow" style="padding: 4%;">
+                <p style="color: rgba(45,211,147,1); font-size: 130%; font-weight: bold;">Legal Details</p>
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label >Website URL</label>
+                        <input type="text" id="inputCity" class="form-control" placeholder="ABC. pvt. ltd">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label>Official Email ID</label>
+                        <input type="email" id="inputCity" class="form-control" placeholder="abc@service.com">
+                      </div>
+                    </div>
 
+                    <label style="padding-top: 3%; padding-bottom: 2%; font-weight: bold;">Legal Numbers</label>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">GSTIN Numbers</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="inputState">PAN Number</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-2">
+                          <label for="inputZip">AADHAR Number</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                      </div>
 
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">TAN Number</label>
+                        <input type="text" class="form-control" id="inputCity">
+                        
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">Registration Number</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                    </div>
 
+                    <div class="form-row">
+                            <div class="form-group col-md-6">
+                            <label for="inputState">Service Provider Qualification</label>
+                            <select id="inputState" class="form-control">
+                              <option selected>LLM</option>
+                              <option>...</option>
+                            </select>
+                          </div>
 
-
+                        <div class="form-group col-md-6">
+                            <a href="#" style="color: rgba(45,211,147,1);  padding: 4%;">Go Back</a>
+                          </div>
+                      </div>
+                    <a href="#" style="color: rgba(45,211,147,1);">Go Back</a>
+                    <button style="color: rgba(45,211,147,1); background-color:rgba(45,211,147,1); color: white; border-radius: 50px; width: 30%;" type="submit" class="btn offset-lg-8">Sign in</button>
+                  </form>
+            </div>
+        </div>
+        
+        </div>
 <app-userfooter></app-userfooter>

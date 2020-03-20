@@ -16,6 +16,9 @@ import { UsercompanyprofileComponent } from './user/usercompanyprofile/usercompa
 import { UserwebandsocialmediaComponent } from './user/userwebandsocialmedia/userwebandsocialmedia.component';
 import { UsercontactinfoComponent } from './user/usercontactinfo/usercontactinfo.component';
 import { UserconfirmaccountComponent } from './user/userconfirmaccount/userconfirmaccount.component';
+import { LatestnewsComponent } from './user/latestnews/latestnews.component';
+import { BecomepartnerComponent } from './user/becomepartner/becomepartner.component';
+import { QuicklinksComponent } from './user/quicklinks/quicklinks.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +33,9 @@ import { UserconfirmaccountComponent } from './user/userconfirmaccount/userconfi
     UserwebandsocialmediaComponent,
     UsercontactinfoComponent,
     UserconfirmaccountComponent,
+    LatestnewsComponent,
+    BecomepartnerComponent,
+    QuicklinksComponent,
    ],
   imports: [
     BrowserModule,

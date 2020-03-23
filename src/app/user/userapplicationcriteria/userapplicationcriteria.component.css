@@ -1,57 +1,65 @@
-.bgshadow{
-    box-shadow: 0px 0px 29px -5px rgba(0,0,0,0.75);
-    border-radius:25px ;
+.bgshadow {
+  box-shadow: 0px 0px 29px -5px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
 }
-.txtg{
-    color: rgba(45, 211, 147, 1) !important;
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+  border-bottom: 40px solid rgb(236, 236, 236);
+  background-color: transparent !important;
+  border-radius: 10px;
+  margin-left: 13%;
 }
-.txtgrey{
-    color: grey;
+.txtg {
+  color: rgba(45, 211, 147, 1) !important;
 }
-.bg{
- background-image: linear-gradient(to bottom, #f1fcf8, #f3fdfd, #f8fdff, #fcfeff, #ffffff);
+.txtgrey {
+  color: grey;
 }
-.txtb{
-    color: black;
+.bg {
+  background-image: linear-gradient(
+    to bottom,
+    #f1fcf8,
+    #f3fdfd,
+    #f8fdff,
+    #fcfeff,
+    #ffffff
+  );
 }
-.inputbg{
-    background-color:rgb(245, 253, 250) ;
+.txtb {
+  color: black;
 }
-.txtghead{
-    color: rgba(45, 211, 147, 1);
-    font-weight: 700 !important;
+.inputbg {
+  background-color: rgb(245, 253, 250);
 }
-
-.txtgreyhead{
-    color: rgb(172, 172, 172);
-    font-weight :500 !important;
+.txtghead {
+  color: rgba(45, 211, 147, 1);
+  font-weight: 700 !important;
 }
-
-.form-control{
-    border-top: 0px ;
-    border-left: 0px;
-    border-right: 0px;
-    border-radius: 0px;
-    border-bottom: solid 2px rgba(45, 211, 147, 1);
+.txtgreyhead {
+  color: rgb(172, 172, 172);
+  font-weight: 500 !important;
 }
-
-.fontsizesm{
-    font-weight: 300;
-    font-size: 13px;
+.form-control {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+  border-bottom: solid 2px rgba(45, 211, 147, 1);
 }
-
-input{
-    margin: 0px;
-    padding: 0px;
+.fontsizesm {
+  font-weight: 300;
+  font-size: 13px;
 }
-
-
-
-
-.selectVisible{
-    visibility:visible !important;
+input {
+  margin: 0px;
+  padding: 0px;
 }
-
-.selectNotVisible{
-    visibility:hidden !important;
+.selectVisible {
+  visibility: visible !important;
+}
+.selectNotVisible {
+  visibility: hidden !important;
 }

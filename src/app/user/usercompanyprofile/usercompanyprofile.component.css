@@ -6,10 +6,20 @@
     color: rgba(45, 211, 147, 1) !important;
 }
 .txtgrey{
-    color: grey;
+    color: #808080;
 }
+.selectVisible {
+    visibility: visible !important;
+  }
+  .selectNotVisible {
+    visibility: hidden !important;
+  }
+  
 .bg{
  background-image: linear-gradient(to bottom, #f1fcf8, #f3fdfd, #f8fdff, #fcfeff, #ffffff);
+}
+a{
+    text-decoration: none;
 }
 .txtb{
     color: black;

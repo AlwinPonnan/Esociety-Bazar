@@ -19,6 +19,7 @@ import { UserconfirmaccountComponent } from './user/userconfirmaccount/userconfi
 import { LatestnewsComponent } from './user/latestnews/latestnews.component';
 import { BecomepartnerComponent } from './user/becomepartner/becomepartner.component';
 import { QuicklinksComponent } from './user/quicklinks/quicklinks.component';
+import { FAQaccordianComponent } from './user/faqaccordian/faqaccordian.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { QuicklinksComponent } from './user/quicklinks/quicklinks.component';
     LatestnewsComponent,
     BecomepartnerComponent,
     QuicklinksComponent,
+    FAQaccordianComponent,
    ],
   imports: [
     BrowserModule,

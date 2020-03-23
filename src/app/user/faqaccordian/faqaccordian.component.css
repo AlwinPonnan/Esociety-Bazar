@@ -1,0 +1,16 @@
+.visible{
+    opacity: 1;
+    transform: translateY(3px);
+    transition: 0.3s;
+}
+.notvisible{
+    opacity: 0;
+    transform: translateY(-3px);
+    transition: 0.3s;
+
+}
+.defaultpos{
+    padding-bottom: -30px;
+    margin-bottom: -30px;
+    transition: 0.3s;
+}

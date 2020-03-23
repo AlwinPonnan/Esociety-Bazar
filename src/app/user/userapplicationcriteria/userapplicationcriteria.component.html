@@ -1,7 +1,9 @@
 <div class="container mt-5 mb-4">
     <div class="row d-flex justify-content-center">
         <div class="col-10 bg-light bgshadow">
+            <div class="triangle-up" style=" margin-top: -30px; padding: 0px !important; z-index: -10; box-shadow: 0px 0px 29px -5px rgba(0, 0, 0, 0.75);"></div>
             <div class="row m-4 d-flex justify-content-center">
+
                 <div class="col-11" style="font-size:13px; font-weight: 100;">
                     eSocietyBazaar provides a platform for service providers, whether it be individuals or firms; a
                     platform to showcase their Services/Products in various different fields
@@ -64,7 +66,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row" [class.selectNotVisible]="setShowdrop1==false" >
+                                        <div class="row" [class.selectNotVisible]="setShowdrop1==false" [class.selectVisible]="setShowdrop1==true" style="transition: 5s;" >
                                             <div class="col-12">
                                                 <div class="row" style="overflow-y: scroll; height: 60px; z-index: 120;">
                                                     <div class="col-12">Organisation</div>
@@ -78,6 +80,8 @@
                                                 </div>
                                             </div>
                                         </div>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -135,3 +139,4 @@
     </div>
 
 </div>
+
